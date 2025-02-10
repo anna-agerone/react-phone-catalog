@@ -1,4 +1,4 @@
-# 📱 ** React Phone Catalog App** 📱
+# 📱 **React Phone Catalog App** 📱
 
 Welcome to the **React Phone Catalog App**! This web application allows users to explore a catalog of phones, tablets and accessories, view their details, and interact with a beautiful user interface. Built using **React**, **Redux**, and other modern technologies, it's fully responsive and supports light/dark themes, localization, **local storage**, and **URL parameters**, etc.
 
@@ -27,12 +27,12 @@ This project is a **React** app where users can browse a catalog of phones, tale
 - **LocalStorage** (for saving user preferences)
 
 ## 🌐 **Demo**
-Check out the live demo here:
-**[Phone Catalog Demo](#)**  *(https://anna-agerone.github.io/react-phone-catalog/)*
+Check out the live demo here: **[Phone Catalog Demo](https://anna-agerone.github.io/react-phone-catalog/)**
 
 ## 📂 **Figma**
-**[Phone Catalog Light Theme](#)**  *(https://www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original)*
-**[Phone Catalog Dark Theme](#)**  *(https://www.figma.com/file/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark)*
+- **[Phone Catalog Light Theme](https://www.figma.com/file/T5ttF21UnT6RRmCQQaZc6L/Phone-catalog-(V2)-Original)**
+- **[Phone Catalog Dark Theme](https://www.figma.com/file/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark)**
+
 
 
 🛍️ Happy Shopping! 🛍️
