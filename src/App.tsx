@@ -1,21 +1,36 @@
-import React from 'react';
+import { Outlet } from 'react-router-dom';
 import './App.scss';
+import './i18n';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { Toaster } from 'react-hot-toast';
+import { ToastContainer } from 'react-toastify';
+import { useAppSelector } from './hooks/hooks';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const { theme } = useAppSelector(state => state.theme);
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+  const toastStyle =
+    theme === 'light'
+      ? { background: '#333', color: '#fff' }
+      : { background: '#fff', color: '#000' };
 
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="App">
+      <ToastContainer />
+      <Toaster
+        position="bottom-right"
+        toastOptions={{
+          duration: 3000,
+          style: toastStyle,
+        }}
+      />
+      <h1 className="App__title">Product Catalog</h1>
+      <Header />
+      <main className="main">
+        <Outlet />
+      </main>
+      <Footer />
     </div>
   );
 };
