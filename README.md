@@ -48,10 +48,8 @@ Git (For cloning the repository)
 
 1️⃣ Install Node.js 18+
 
-Using Node Version Manager (NVM) [Recommended]
-
+Using Node Version Manager (NVM) [Recommended]:
     ```bash
-    
     nvm install 18
     nvm use 18
     nvm alias default 18
