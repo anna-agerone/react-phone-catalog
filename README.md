@@ -66,7 +66,8 @@ node -v
 
 2️⃣ Clone the Repository
 
-git clone [MY_PROJECT_REPO_URL](https://github.com/anna-agerone/react-phone-catalog.git)
+git clone https://github.com/anna-agerone/react-phone-catalog.git
+
 cd react-phone-catalog
 
 3️⃣ Install Dependencies
