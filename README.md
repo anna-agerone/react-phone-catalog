@@ -49,6 +49,7 @@ Git (For cloning the repository)
 1️⃣ Install Node.js 18+
 
 Using Node Version Manager (NVM) [Recommended]
+
     ```bash
     
     nvm install 18
@@ -61,6 +62,7 @@ Download Node.js 18 LTS from:
 👉 https://nodejs.org/
 
 Verify installation:
+
     ```bash
     
     node -v
@@ -68,6 +70,7 @@ Verify installation:
 * Should print: v18.x.x or later
 
 2️⃣ Clone the Repository
+
     ```bash
 
     git clone https://github.com/anna-agerone/react-phone-catalog.git
@@ -75,11 +78,13 @@ Verify installation:
     cd react-phone-catalog
 
 3️⃣ Install Dependencies
+
     ```bash
 
     npm install
 
 4️⃣ Start the Development Server
+
     ```bash
     
     npm start
