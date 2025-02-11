@@ -1,9 +1,9 @@
 # 📱 **React Phone Catalog App** 📱
 
-Welcome to the **React Phone Catalog App**! This web application allows users to explore a catalog of phones, tablets and accessories, view their details, and interact with a beautiful user interface. Built using **React**, **Redux**, and other modern technologies, it's fully responsive and supports light/dark themes, localization, **local storage**, and **URL parameters**, etc.
+Welcome to the **React Phone Catalog App**! This web application allows users to explore a catalog of phones, tablets, and accessories, view their details, and interact with a beautiful user interface. Built using **React**, **Redux**, and other modern technologies, it's fully responsive and supports light/dark themes, localization, **local storage**, and **URL parameters**, etc.
 
 ## 🔍 **Overview**
-This project is a **React** app where users can browse a catalog of phones, talets and accessories. It's built with **JavaScript** and **TypeScript** to demonstrate flexibility, and the app includes several great features such as language switching, state management with **Redux**, **local storage** to persist user data, **useParams** for dynamic URL parameters, and a **Swiper slider** for showcasing phone images.
+This project is a **React** app where users can browse a catalog of phones, tablets, and accessories. It's built with **JavaScript** and **TypeScript** to demonstrate flexibility, and the app includes several great features such as language switching, state management with **Redux**, **local storage** to persist user data, **useParams** for dynamic URL parameters, and a **Swiper slider** for showcasing phone images.
 
 ## ✨ **Features**
 - **Explore Products**: View detailed information about each product in the catalog.
@@ -21,7 +21,7 @@ This project is a **React** app where users can browse a catalog of phones, tale
 - **React Router** (for navigation)
   - `useParams` for dynamic URL parameters
 - **Swiper** (for the slider)
-- **SCSS** (for modular styling with BEM)
+- **SCSS** (for modular styling)
 - **i18next** (for internationalization)
 - **React Toastify** & **React Hot Toast** (for notifications)
 - **LocalStorage** (for saving user preferences)
