@@ -62,7 +62,8 @@ Download Node.js 18 LTS from:
 Verify installation:
 
 node -v
-# Should print: v18.x.x or later
+
+* Should print: v18.x.x or later
 
 2️⃣ Clone the Repository
 
