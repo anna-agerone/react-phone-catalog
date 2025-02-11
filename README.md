@@ -34,6 +34,67 @@ Check out the live demo here: **[Phone Catalog Demo](https://anna-agerone.github
 - **[Phone Catalog Dark Theme](https://www.figma.com/file/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark)**
 
 
+🚀 This project is a React + TypeScript project using Vite.
+
+📌 Prerequisites
+
+Node.js 18+ (Required for Vite 5+)
+
+npm (Installed with Node.js)
+
+Git (For cloning the repository)
+
+⚡ Installation and Setup
+
+1️⃣ Install Node.js 18+
+
+Using Node Version Manager (NVM) [Recommended]
+
+nvm install 18
+nvm use 18
+nvm alias default 18
+
+Manual Installation
+
+Download Node.js 18 LTS from:
+👉 https://nodejs.org/
+
+Verify installation:
+
+node -v
+# Should print: v18.x.x or later
+
+2️⃣ Clone the Repository
+
+git clone [MY_PROJECT_REPO_URL](https://github.com/anna-agerone/react-phone-catalog.git)
+cd react-phone-catalog
+
+3️⃣ Install Dependencies
+
+npm install
+
+4️⃣ Start the Development Server
+
+npm start
+
+This will start the project locally, and you should see output like:
+
+VITE v5.3.1  ready in 500ms
+Local: http://localhost:5173/
+
+Now, open http://localhost:5173/ in your browser. 🚀
+
+5️⃣ Optional: Set Node.js Version for the Project
+
+To ensure everyone working on the project uses the correct Node.js version, create a .nvmrc file:
+
+echo "18" > .nvmrc
+
+Then, whenever you switch to this project, run:
+
+nvm use
+
+✅ You're All Set!
 
 🛍️ Happy Shopping! 🛍️
 
