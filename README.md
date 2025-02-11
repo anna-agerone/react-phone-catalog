@@ -51,7 +51,6 @@ Git (For cloning the repository)
 Using Node Version Manager (NVM) [Recommended]
 
     ```bash
-    
     nvm install 18
     nvm use 18
     nvm alias default 18
