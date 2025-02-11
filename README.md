@@ -49,10 +49,11 @@ Git (For cloning the repository)
 1️⃣ Install Node.js 18+
 
 Using Node Version Manager (NVM) [Recommended]
-
-nvm install 18
-nvm use 18
-nvm alias default 18
+    ```bash
+    
+    nvm install 18
+    nvm use 18
+    nvm alias default 18
 
 Manual Installation
 
@@ -60,24 +61,28 @@ Download Node.js 18 LTS from:
 👉 https://nodejs.org/
 
 Verify installation:
-
-node -v
+     ```bash
+     
+     node -v
 
 * Should print: v18.x.x or later
 
 2️⃣ Clone the Repository
+    ```bash
 
-git clone https://github.com/anna-agerone/react-phone-catalog.git
+    git clone https://github.com/anna-agerone/react-phone-catalog.git
 
-cd react-phone-catalog
+    cd react-phone-catalog
 
 3️⃣ Install Dependencies
+    ```bash
 
-npm install
+    npm install
 
 4️⃣ Start the Development Server
-
-npm start
+    ```bash
+    
+    npm start
 
 This will start the project locally, and you should see output like:
 
@@ -85,16 +90,6 @@ VITE v5.3.1  ready in 500ms
 Local: http://localhost:5173/
 
 Now, open http://localhost:5173/ in your browser. 🚀
-
-5️⃣ Optional: Set Node.js Version for the Project
-
-To ensure everyone working on the project uses the correct Node.js version, create a .nvmrc file:
-
-echo "18" > .nvmrc
-
-Then, whenever you switch to this project, run:
-
-nvm use
 
 ✅ You're All Set!
 
