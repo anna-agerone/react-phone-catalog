@@ -1,4 +1,4 @@
-const BASE_URL = 'https://anna-agerone.github.io/react_phone-catalog/api';
+const BASE_URL = 'https://anna-agerone.github.io/react-phone-catalog/api';
 
 // const BASE_URL = './api/';
 
